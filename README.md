@@ -1,5 +1,10 @@
 # Poker and Maze games using Reinforcement Learning
 
+• Q-Learning algorithm to implement maze and poker problems in reinforcement learning.
+• Implemented MazeAgent and PokerAgent to learn based on rewards using Q-Learning methodology.
+• Q-Learning is off-policy that learns values based on action obtained from another policy. 
+• In Q-Learning approach, current state values are updated based on max rewards action in next state.
+
 Description of maze problem:
 A maze is a collection of paths from starting point to goal. Our aim is to start at a valid point in maze and move towards goal point through a valid path. Valid path should include only blocks through which we can move such as open space. Any blocks such as wall or obstacles in path is not a valid one.
 
